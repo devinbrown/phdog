@@ -4,45 +4,18 @@
 
 <body>
   <div class="container">
-    {{> banner}}
+    {{> header}}
+
+    {{> about}}
+    <div class="image-block">
+      <img src="tater.jpg" alt="pug" class="img-thumbnail">
+      <img src="00.jpg" alt="pug" class="img-thumbnail">
+      <img src="01.jpg" alt="pug" class="img-thumbnail">
+      <img src="02.jpg" alt="pug" class="img-thumbnail">
+    </div>
+    {{> services}}
+    {{> bios}}
+    {{> pricing}}
+    {{> contact}}
   </div>
 </body>
-
-<template name="banner">
-  <div id="banner">
-    <div class="jumbotron">
-    <!--   <h1>PhDog</h1>
-      <h4>The smartest thing to walk your dog.</h4>
-      <img class="img-circle" src="tater.jpg"> -->
-
-      <ul class="list-inline">
-        <li><h1>PhDog</h1><h4>The smartest thing to walk your dog.</h4></li>
-        <li><img class="img-circle hidden-sm hidden-xs" src="tater.jpg"></li>
-      </ul>
-    </div>
-
-    <nav class="navbar navbar-default" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#services">SERVICES</a></li>
-          <li><a href="#walkers">MEET OUR PHDOGS</a></li>
-          <li><a href="#pricing">PRICING</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-
-      </div><!-- /.navbar-collapse -->
-    </nav>
-  </div>
-</template>
