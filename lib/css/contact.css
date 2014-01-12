@@ -1,0 +1,8 @@
+#contact button {
+  float: right;
+  width: 100px;
+}
+
+#contact textarea {
+  max-width: 729px;
+}

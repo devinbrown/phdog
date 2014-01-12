@@ -2,6 +2,17 @@ body {
   background-color: #E5E1D1;
 }
 
+footer {
+  background-color: #eee;
+  height: 82px;
+  text-align: center;
+  width: 100%;
+}
+
+footer h2 {
+  line-height: 78px;
+}
+
 .image-block {
   padding-bottom: 20px;
   text-align: center;
