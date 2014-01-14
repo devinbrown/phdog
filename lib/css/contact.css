@@ -1,6 +1,15 @@
 #contact button {
   float: right;
-  width: 100px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #F04C16;
+  border: 0;
+  border-radius: 0;
+}
+
+#contact button:hover {
+  background-color: #902d0d;
 }
 
 #contact textarea {

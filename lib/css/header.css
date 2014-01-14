@@ -1,5 +1,39 @@
 #header .jumbotron {
-  margin-bottom: 10px;
+  background-color: #EDBD1F;
+  border-bottom: 2px solid;
+  border-radius: 0px;
+  border-top: 2px solid;
+  margin-bottom: 0px;
   margin-top: 20px;
-  padding: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 25px;
+}
+
+#header .jumbotron h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#header .jumbotron h4 {
+  margin-top: 5px;
+}
+
+#header .jumbotron span {
+  display: inline-block;
+}
+
+#header .navbar {
+  border: 0;
+  border-radius: 0;
+}
+
+#header .navbar.navbar-default {
+  background-color: #DBDBD0;
+}
+
+#header .navbar-default .navbar-nav > li > a {
+  color: #333;
+  font-weight: 600;
 }

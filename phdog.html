@@ -4,29 +4,26 @@
 
 <body>
   <div class="container">
+
     {{> header}}
 
-    {{> about}}
-    {{> services}}
+    <div class="row">
+      <div class="content col-md-10 col-md-offset-1">
+        {{> about}}
+        {{> services}}
+        {{> bios}}
+        {{> pricing}}
+        {{> contact}}
+      </div>
 
-    <div class="image-block">
-      <img src="tater.jpg" alt="pug" class="img-thumbnail">
-      <img src="00.jpg" alt="pug" class="img-thumbnail">
-      <img src="01.jpg" alt="pug" class="img-thumbnail">
-      <img src="02.jpg" alt="pug" class="img-thumbnail">
+      <!-- <div class="col-md-3">
+        <h2 class="grand"> Meet The Students...</h2>
+        <img src="tater.jpg" alt="pug" class="img-thumbnail">
+        <img src="00.jpg" alt="pug" class="img-thumbnail">
+        <img src="01.jpg" alt="pug" class="img-thumbnail">
+        <img src="02.jpg" alt="pug" class="img-thumbnail">
+      </div> -->
     </div>
-
-    {{> bios}}
-    {{> pricing}}
-
-    <div class="image-block">
-      <img src="03.jpg" alt="pug" class="img-thumbnail">
-      <img src="04.jpg" alt="pug" class="img-thumbnail">
-      <img src="05.jpg" alt="pug" class="img-thumbnail">
-      <img src="06.jpg" alt="pug" class="img-thumbnail">
-    </div>
-
-    {{> contact}}
   </div>
 
   <footer>

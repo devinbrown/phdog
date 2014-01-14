@@ -1,32 +1,26 @@
 <template name="contact">
-  <div id="contact">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <div class="panel-title"><h2>Contact Us</h2></div>
+  <div id="contact" class="content-block">
+    <h2>Contact Us</h2>
+    <div class="row">
+      <div class="col-md-8">
+        <form role="form">
+          <div class="form-group">
+            <label for="emailInput">Your Email</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="dog@lover.com">
+          </div>
+
+          <div class="form-group">
+              <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="10"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
       </div>
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-md-8">
-            <form role="form">
-              <div class="form-group">
-                <label for="emailInput">Your Email</label>
-                <input type="email" class="form-control" id="emailInput" placeholder="dog@lover.com">
-              </div>
 
-              <div class="form-group">
-                  <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="10"></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary">Send</button>
-            </form>
-          </div>
-
-          <div class="col-md-4">
-            <h4>Let us know!</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus felis lorem, semper id erat vitae, tempor scelerisque metus. Aenean id tristique massa, et vehicula mauris. In et ornare ipsum, at semper neque. Nulla sapien mi, aliquam at libero nec, eleifend sollicitudin ante. Nunc vehicula pellentesque fermentum. Nullam et justo nec mi ultrices auctor ac id eros. Integer nisl dui, lobortis at pulvinar et, vehicula ac massa.</p>
-          </div>
-        </div>
+      <div class="col-md-4">
+        <h4>Let us know!</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus felis lorem, semper id erat vitae, tempor scelerisque metus. Aenean id tristique massa, et vehicula mauris. In et ornare ipsum, at semper neque. Nulla sapien mi, aliquam at libero nec, eleifend sollicitudin ante. Nunc vehicula pellentesque fermentum. Nullam et justo nec mi ultrices auctor ac id eros. Integer nisl dui, lobortis at pulvinar et, vehicula ac massa.</p>
       </div>
     </div>
   </div>

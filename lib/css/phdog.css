@@ -1,9 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Grand+Hotel);
+
+.fell {
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.grand {
+  font-family: 'Grand Hotel', cursive;
+}
+
 body {
-  background-color: #E5E1D1;
+  background-color: #313B4A;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-size: 17px;
 }
 
 footer {
-  background-color: #eee;
+  background-color: #EDBD1F;
   height: 82px;
   text-align: center;
   width: 100%;
@@ -13,11 +28,43 @@ footer h2 {
   line-height: 78px;
 }
 
-.image-block {
-  padding-bottom: 20px;
-  text-align: center;
+.col-md-3 img {
+  margin-bottom: 15px;
 }
 
-.image-block img {
-  width: 200px;
+.row {
+  color: #eee;
+}
+
+.panel {
+  border: 0;
+  border-radius: 0;
+}
+
+.panel .panel-heading {
+  background-color: #EDBD1F;
+  border: 0;
+  border-radius: 0;
+}
+
+.content h2 {
+  font-size: 34px;
+  border-bottom: 2px solid;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-family: 'Grand Hotel', cursive;
+}
+
+h3 {
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.panel .panel-body {
+  background-color: #DBDBD0;
+}
+
+.content-block {
+  margin-bottom: 60px
 }

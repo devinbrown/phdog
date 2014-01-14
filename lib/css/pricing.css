@@ -1,9 +1,8 @@
-#pricing h3,
-#pricing h4 {
+#pricing h3 {
   text-align: center;
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   #pricing .col-md-4:first-child {
     border-right: 3px solid;
   }
@@ -11,4 +10,4 @@
   #pricing .col-md-4:last-child {
     border-left: 3px solid;
   }
-}
+}*/
