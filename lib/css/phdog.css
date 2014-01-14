@@ -25,7 +25,12 @@ footer {
 }
 
 footer h2 {
-  line-height: 78px;
+  line-height: 82px;
+  margin: 0;
+}
+
+footer a {
+  color: #313B4A
 }
 
 .col-md-3 img {
@@ -48,7 +53,7 @@ footer h2 {
 }
 
 .content h2 {
-  font-size: 34px;
+  font-size: 38px;
   border-bottom: 2px solid;
   margin-bottom: 25px;
 }
@@ -66,5 +71,5 @@ h3 {
 }
 
 .content-block {
-  margin-bottom: 60px
+  margin-bottom: 50px
 }

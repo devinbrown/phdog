@@ -37,3 +37,7 @@
   color: #333;
   font-weight: 600;
 }
+
+#header .navbar-default .navbar-nav > li > a:hover {
+  background-color: #999;
+}

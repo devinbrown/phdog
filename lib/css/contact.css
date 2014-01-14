@@ -15,3 +15,8 @@
 #contact textarea {
   max-width: 729px;
 }
+
+#contact h2 {
+  text-align: center;
+  border: 0;
+}
