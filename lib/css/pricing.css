@@ -6,9 +6,31 @@
   border-bottom: 0;
 }
 
+#pricing h4 {
+  border: 1px solid;
+  width: 115px;
+  height: 40px;
+  line-height: 37px;
+  border-radius: 5px;
+  background-color: #4CB09C;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+#pricing ul {
+  text-align: left;
+}
+
 @media (min-width: 992px) {
   #pricing .col-md-4 {
-    min-height: 234px;
+    min-height: 300px;
+  }
+
+  #pricing .col-md-4.pricing {
+    min-height: 0px;
   }
 
   #pricing .col-md-4:first-child {

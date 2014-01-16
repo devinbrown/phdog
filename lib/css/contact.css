@@ -16,7 +16,6 @@
   max-width: 729px;
 }
 
-#contact h2 {
-  text-align: center;
-  border: 0;
+#contact img {
+  max-width: 217px;
 }

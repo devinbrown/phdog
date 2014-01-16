@@ -16,10 +16,6 @@
   margin-top: 10px;
 }
 
-#header .jumbotron h4 {
-  margin-top: 5px;
-}
-
 #header .jumbotron span {
   display: inline-block;
 }
@@ -29,12 +25,16 @@
   border-radius: 0;
 }
 
+#header .navbar .navbar-brand {
+  padding-left: 30px;
+}
+
 #header .navbar.navbar-default {
   background-color: #DBDBD0;
 }
 
 #header .navbar-default .navbar-nav > li > a {
-  color: #333;
+  color: #000;
   font-weight: 600;
 }
 
