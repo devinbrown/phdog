@@ -19,3 +19,8 @@
 #contact img {
   max-width: 217px;
 }
+
+#contact .alert.alert-success,
+#contact .alert.alert-warning {
+  display: none;
+}
