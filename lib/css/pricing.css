@@ -1,23 +1,20 @@
 #pricing {
+
+}
+
+#pricing span.price {
   text-align: center;
-}
-
-#pricing h2 {
-  border-bottom: 0;
-}
-
-#pricing h4 {
   border: 1px solid;
-  width: 115px;
-  height: 40px;
-  line-height: 37px;
+  padding: 5px;
+  line-height: 32px;
   border-radius: 5px;
   background-color: #4CB09C;
   color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 200;
-  font-size: 20px;
+  font-weight: 400;
+}
+
+#pricing span.price span {
+  font-size: 9px;
 }
 
 #pricing ul {
@@ -31,13 +28,5 @@
 
   #pricing .col-md-4.pricing {
     min-height: 0px;
-  }
-
-  #pricing .col-md-4:first-child {
-    border-right: 3px solid;
-  }
-
-  #pricing .col-md-4:last-child {
-    border-left: 3px solid;
   }
 }
